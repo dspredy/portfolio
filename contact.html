@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dspredy</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+
+            <nav>
+                <ul>
+                    <li><a href="/index.html"><b>Home</b></a></li>
+                    <li><a href="/intro.html"><b>My Intro</b></a></li>
+                    <li><a href="/contact.html"><b>Contact</b></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hambur">
+                <img class="ham" src="m-removebg-preview.png" alt="" width="30">
+                <img class="cross" src="vector-cancel-cross-icon-removebg-preview.png" alt="" width="30">
+            </div>
+            <div class="contactform">
+                <h1>Contact me for any sort of work/Enquires</h1>
+                <form action="send.php" method="post">
+                    <div class="mb-3">
+                        <label for="exampleInputName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleInputName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text"><b>We'll never share your email with anyone else.</b>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPhone" class="form-label">Phone</label>
+                        <input type="phone" class="form-control" id="exampleInputPhone">
+                    </div>
+                    <div class="mb-3" id="form-check">
+                        <input type="checkbox" class="form-check-input" id="checkbox">
+                        <label class="form-check-input" for="checkbox">I declare the given details are correct</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.sidebar{
+    background-color: rgb(27, 255, 6);
+    
+   /* width: 310px;*/
+    height: 100vh;
+    text-align: center;
+    transition: transform 0.1 ease-in;
+    position: absolute;
+    
+}.sidebar nav{
+    padding: 45px;
+}
+
+
+.sidebar nav li{
+ list-style: none;
+ font-size: 20px;
+ padding: 33px 0;
+ 
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    
+   background-color:black;
+   width: 1536px;
+   height: 745px;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+  background-color:black;
+    height: 36vw;
+    width: 68vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.infoContainer a
+{
+    text-decoration: none;
+    text-align: center;
+}
+
+.hello{
+    font-size: 50px;
+    color: rgb(27, 255, 6);
+    font-family: 'Rajdhani', sans-serif;
+}
+.name{
+    font-size: 35px;
+    color: rgb(27, 255, 6);
+    font-family: 'Rajdhani', sans-serif;
+}
+.about{
+    font-size: 25px;
+    color: rgb(27, 255, 6);
+    margin-top: 23px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.buttons {
+    margin-top: 34px;
+    
+}
+.buttons button {
+   padding: 9px 14px;
+   border-radius: 22px;
+   color: black;
+   background-color: rgb(27, 255, 6);
+   font-weight: bold;
+   font-size: 21px;
+   margin: 0 3px;
+   cursor: pointer;
+   font-family: 'Rajdhani', sans-serif;
+}
+.buttons button:hover {
+    background-color: black;
+   color: rgb(27, 255, 6);
+}
+.devpic img {
+    height:36vw ;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+    font-size: 10px;
+    margin-top: 256px;
+}
+.contactform {
+padding-top: 100px;
+color:rgb(27, 255, 6) ;
+
+}
+h1{
+text-align: center;
+}
+.contactform form{
+    padding-left: 578px;
+    padding-top: 45px;
+
+}
+.contactform form div{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 340px;
+border-radius: 8px;
+font-size: 20px;
+}
+#form-check{
+    display: flex;
+    flex-direction: row;
+
+
+}
+#form-check input{
+    display: flex;
+    flex-direction: row;
+    width: 15px;
+    margin: 3px 3px;
+
+}
+.contactform form button{
+    padding: 6px 18px;
+    border-radius: 22px;
+    color: black;
+    background-color: rgb(27, 255, 6);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 15px 95px;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+}
+.contactform form button:hover{
+    background-color: black;
+   color: rgb(27, 255, 6);
+}
+.intro{
+    color: rgb(27, 255, 6);
+}
+.intro h2{
+margin: 25px 425px;
+text-align: center;
+}
+.intro p{
+margin: 0px 12px;
+
+}
+.skill{
+    width: 200px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+     
+}
+.h{
+width: 200px;
+}
+.f{
+    width: 100px;
+
+}
+.t{
+    width: 50px;
+}
+.s{
+    width: 150px;
+}
+.skillcontainer{
+    padding: 0px 277px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+
+.hambur{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 123px;
+}
+.sidebargo{
+    transform: translate(-443px);
+    position: absolute;
+}
+@media (max-width: 1535px) {
+    .devpic{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
